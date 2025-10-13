@@ -31,5 +31,7 @@ public class GetMethod {
 		.when().get()
 		.then().statusCode(200);
 	}
+	
+	
 
 }
