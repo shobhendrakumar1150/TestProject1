@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestAssured.GetMethod">
+      <class name="RestAssured.CheckForValidResponse">
         <methods>
-          <include name="RequestUsingGivenWhenThen"/>
+          <include name="GetSingleUserUsingValidatableResponse"/>
         </methods>
-      </class> <!-- RestAssured.GetMethod -->
+      </class> <!-- RestAssured.CheckForValidResponse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
